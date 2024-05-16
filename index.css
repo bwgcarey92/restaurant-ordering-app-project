@@ -1,0 +1,235 @@
+body {
+    margin: 0;
+} 
+
+#app-container {
+    width: 600px;
+    margin: 0 auto;
+    font-family: "Smythe", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    padding-bottom: 50px;
+}
+
+header {
+    margin: 0;
+    background-image: url('./photos/ferks-guare-KEZdWfYD-ow-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 20px;
+}
+
+#title-container {
+    margin: 0;
+    padding: 20px 30px;
+    color: #ffffff;
+}
+
+h1 {
+    font-size: 40;
+}
+
+h2 {
+    font-size: 22;
+}
+
+.menu-container {
+    display: flex;
+    margin: 10px 20px 0 20px;
+    border-bottom: 2px solid #d2d2d2;
+    justify-content: space-between;
+    padding: 25px 0 30px 0;
+}
+
+.menu {
+    display: flex;
+}
+
+#menuItemEmoji{
+    font-size: 75px;
+    margin: 0;
+}
+
+.menu-info {
+    display: flex;
+    flex-direction: column;
+    padding-left: 25px;
+}
+
+#menuItem {
+    font-size: 25px;
+    margin: 0;
+}
+
+#menuItemIngredients {
+    color: #8b8b8b;
+    font-size: 16px;
+    margin-top: 0;
+}
+
+#menuItemPrice {
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.add-btns {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    font-family: "Inter", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 32px;
+    border: 1px solid #dedede;
+    background-color: transparent;
+    color: #3c3c3c;
+}
+
+.add-btns:hover {
+    cursor: pointer;
+}
+
+.order-subtotal {
+    margin: 10px 20px;
+    text-align: center;
+}
+.order-subtotal > h4 {
+    font-size: 28px;
+}
+
+.order-items {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid #393333;
+}
+
+.order-item-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.order-item {
+    display: flex;
+}
+
+.order-item > h4 {
+    font-size: 28px;
+}
+
+.order-subtotal-price {
+    font-size: 20px;
+}
+
+.remove-btn {
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    color: #bbbbbb;
+    background-color: transparent;
+}
+
+.remove-btn:hover {
+    cursor: pointer;
+}
+
+.total-price {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.total-price > h4 {
+    font-size: 28px;
+}
+
+.total-price > p {
+    font-size: 20px;
+}
+
+.new-total-price {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.new-total-price > h4 {
+    font-size: 28px;
+}
+
+.new-total-price > p {
+    font-size: 20px;
+}
+
+.complete-order-btn {
+    background-color: #16db99;
+    border: none;
+    width: 100%;
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px 0;
+    border-radius: 4px;
+}
+
+.complete-order-btn:hover {
+    cursor: pointer;
+}
+
+.modal {
+    display: none;
+    text-align: center;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 350px;
+    width: 350px;
+    background-color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 35px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.modal-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-form > h3 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.modal-input {
+    padding: 10px 20px;
+    border: 1px solid #757575;
+    border-radius: 5px;
+    color: #757575;
+    margin: 15px 0;
+}
+
+.modal-input::-webkit-outer-spin-button, .modal-input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.pay-btn {
+    color: #ffffff;
+    background-color: #16db99;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.order-confirmation {
+    text-align: center;
+    background-color: #ecfdf5;
+    color: #065f46;
+    padding: 30px;
+    margin: 20px;
+}
