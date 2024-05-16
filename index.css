@@ -226,6 +226,10 @@ h2 {
     margin-top: 20px;
 }
 
+.pay-btn:hover {
+    cursor: pointer;
+}
+
 .order-confirmation {
     text-align: center;
     background-color: #ecfdf5;
