@@ -2,41 +2,6 @@ body {
     margin: 0;
 } 
 
-
-@media only screen and (max-width: 600px) {
-    #app-container {
-        width: 100%; 
-        padding: 0 10px;
-    }
-
-    header {
-        padding-bottom: 10px; 
-    }
-
-    .menu-container {
-        flex-direction: column; 
-        align-items: center; 
-        margin: 10px 0; 
-        padding: 20px 0; 
-    }
-
-    .menu-info {
-        padding-left: 0;
-        text-align: center; 
-    }
-
-    .order-subtotal {
-        margin: 10px 0;
-    }
-
-    .modal {
-        width: 90%; 
-        max-width: 350px; 
-        padding: 20px; 
-    }
-}
-
-
 #app-container {
     width: 600px;
     margin: 0 auto;
